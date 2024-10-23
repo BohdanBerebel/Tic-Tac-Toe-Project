@@ -1,0 +1,101 @@
+body {
+    background-color: darkgray;
+    padding: 0;
+    margin: 0;
+}
+
+body > :nth-child(1) {
+    background-color: bisque;
+}
+
+div > p {
+    font-style: italic;
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    gap: 2rem;
+    font-size: 5rem;
+}
+
+#playerOne {
+    color: crimson;
+}
+
+#playerTwo {
+    color:dodgerblue;
+}
+
+p {
+    text-align: center;
+    font-size: 3rem;
+    padding: 0;
+    margin: 0;
+}
+
+#changes {
+    font-size: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1rem;
+}
+
+#changes > div:nth-child(2) {
+    grid-column: 2 / 3;
+}
+
+input {
+    display: block;
+}
+
+#playground {
+    padding: 2rem;
+    margin: 0 auto;
+    display: grid;
+    place-content: center;
+    /* place-items: center; */
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    height: 50vh;
+    width: 50vh;
+    font-size: 5rem;
+}
+
+.cell {
+    border: 2px dotted red;
+    background-color: rgb(240, 216, 220);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+}
+
+
+.left {
+    border-left: none ;
+}
+
+.top {
+    border-top: none ;
+}
+
+.bottom {
+    border-bottom: none ;
+}
+
+.right {
+    border-right: none ;
+}
+
+#results {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 5rem;
+    color: crimson;
+    background-color: chartreuse;
+}

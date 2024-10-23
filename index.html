@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div>
+        <p>Welcome to my Tic Tac Toe Project</p>
+        <div id="header">
+            <div id="playerOne"></div>
+            <div id="score"></div>
+            <div id="playerTwo"></div>
+        </div>
+        <div id="changes">
+            <div>
+                <label for="nameOne">Type in your new name if you wish:</label>
+                <input id="nameOne" type="text">
+                <button id="playerOneButtonInput" type="button">Confirm</button>
+                <button type="button">Hide this part</button>
+            </div>
+            <div>
+                <label for="nameTwo">Type in your new name if you wish:</label>
+                <input id="nameTwo" type="text">
+                <button id="playerTwoButtonInput" type="button">Confirm</button>
+                <button type="button">Hide this part</button>
+            </div>
+        </div>
+    </div>
+    <div id="playground">
+        <div class="cell top left"></div>
+        <div class="cell top"></div>
+        <div class="cell top right"></div>
+        <div class="cell left"></div>
+        <div class="cell"></div>
+        <div class="cell right"></div>
+        <div class="cell left bottom"></div>
+        <div class="cell bottom"></div>
+        <div class="cell bottom right"></div>
+    </div>
+    <div id="results">
+        
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
