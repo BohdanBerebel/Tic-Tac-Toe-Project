@@ -167,10 +167,7 @@ const module = (function(){
         return cellsArray.every((element) => {
 
            return element.every((cell) => {
-                
-                console.log(cell.textContent)
-                console.log(!!cell.textContent)
-                
+
                 return !!cell.textContent
             })
         })
@@ -208,10 +205,6 @@ const module = (function(){
         makeChoice(e.target);
     })
     
-    return {
-        playerOne,
-        playerTwo,
-        showActivePlayer
-    }
+    return
 
 })();
